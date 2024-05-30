@@ -1,0 +1,20 @@
+.sd-title.sd-container-modern__title {
+    box-shadow: 0px 2px 0px #e2ff65;
+}
+span.sv-string-viewer {
+    color: #e2ff65;
+}
+input.sd-btn.sd-btn--action.sd-navigation__complete-btn {
+    background-color: #e2ff65;
+}
+.sd-root-modern .sd-container-modern__title {
+    background-color: rgb(0 0 0);
+    border-bottom: 3px solid #e2ff65;
+}
+.sv-components-column.sv-components-column--expandable {
+    background: rgb(0 0 0);
+}
+.sd-body.sd-completedpage {
+    background: rgb(0 0 0);
+
+}

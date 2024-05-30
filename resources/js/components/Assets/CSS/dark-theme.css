@@ -1,0 +1,42 @@
+body #creatorElement {
+  /* SurveyJS Creator V1 */
+  --primary-color: #7ff07f;
+  --secondary-color: #1ab394;
+  --primary-text-color: #4a4a4a;
+  --secondary-text-color: #a7a7a7;
+  --inverted-text-color: #ffffff;
+  --primary-hover-color: #6fe06f;
+  --selection-border-color: #1ab394;
+  --primary-icon-color: #3d4d5d;
+  --primary-bg-color: #f8f8f8;
+  --secondary-bg-color: #f4f4f4;
+  --primary-border-color: #e7eaec;
+  --secondary-border-color: #ddd;
+  --error-color: #ed5565;
+}
+body {
+  /* SurveyJS Creator V2 */
+  --primary: #e2ff55;
+  --primary-light: rgba(26, 183, 250, 0.1);
+  --foreground: #ededed;
+  --primary-foreground: #ffffff;
+  --secondary: #e2ff55;
+  --background: #000;
+  --background-dim: #000;
+  --background-dim-light: #000;
+}
+.svc-btn:hover {
+  background-color: red !important;
+  color: black;
+}
+ 
+.sv-list__item.sv-list__item--selected .sv-list__item-body, .sv-list__item.sv-list__item--selected:hover .sv-list__item-body, .sv-list__item.sv-list__item--selected.sv-list__item--focused .sv-list__item-body, .sv-multi-select-list .sv-list__item.sv-list__item--selected.sv-list__item--focused .sv-list__item-body, li:focus .sv-list__item.sv-list__item--selected .sv-list__item-body
+{
+  background-color: #1ab394;
+}
+span.sv-string-viewer {
+  color: #1ed1d4 !important;
+}
+span.svc-creator__non-commercial-text {
+  display: none;
+}

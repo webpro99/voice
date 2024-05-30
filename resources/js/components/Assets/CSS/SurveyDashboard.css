@@ -1,0 +1,21 @@
+.viz-panel-container {
+    background-color: black !important;
+  }
+  
+  .sd-navigation__header-title, 
+  .sa-question__title, 
+  .sa-question__header {
+    background-color: #1a1a1a  !important; /* Dark background for card titles */
+    color: #e2ff65 !important; /* Light text color for contrast */
+  }
+  
+  .sa-question__content {
+    background-color: #1a1a1a !important; /* Dark background for card content */
+    color: white !important; /* Light text color */
+  }
+  
+  .sa-question__content .sa-question__details .sa-chart__title,
+  .sa-question__content .sa-question__details .sa-table__title {
+    color: #e2ff65 !important; /* Light text color for chart and table titles */
+  }
+  
